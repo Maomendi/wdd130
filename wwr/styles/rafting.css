@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+:root {
+    --primary-color: #bec5ad;
+    --secondary-color: #a4b494;
+    --accent1-color: #519872;
+    --accent2-color: #3b5249;
+}
+
+
+p{
+    font-family: "Roboto Serif", system-ui;
+}
+
+h1{
+    font-family: "lexend", system-ui;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--primary-color);
+
+}
+
+h2{
+    font-family: "lexend", system-ui;
+}
+
+.hero{
+    margin: 10px;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+article{
+    position: absolute;
+	top: 0;
+	right: 0;
+	background: var(--accent2-color);
+	border: 1px solid var(--accent1-color);
+	padding: 0.65rem;
+	box-shadow: 0 0 30px var(--accent1-color);
+	opacity: 0.9;
+}
