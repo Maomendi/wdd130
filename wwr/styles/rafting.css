@@ -8,32 +8,56 @@
 }
 
 
+header{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+header nav{
+    display: flex;
+    grid-column-start: 4;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header img{
+    grid-column-start: 1;
+}
+
 p{
     font-family: "Roboto Serif", system-ui;
 }
 
-h1{
+.hero h1{
     font-family: "lexend", system-ui;
     position: absolute;
     top: 0;
-    left: 0;
-    color: var(--primary-color);
-
+    left: 270px;
+    color: var(--primary-color)
 }
 
 h2{
     font-family: "lexend", system-ui;
 }
 
+
 .hero{
     margin: 10px;
     position: relative;
 }
 
+
+
 .hero img{
     width: 100%;
+}
+
+.happy img{
+    width: 200px;
     height: auto;
     display: block;
+    float: right;
 }
 
 a{
@@ -42,8 +66,8 @@ a{
 
 article{
     position: absolute;
-	top: 0;
-	right: 0;
+    top: 0;
+    right: 0;
 	background: var(--accent2-color);
 	border: 1px solid var(--accent1-color);
 	padding: 0.65rem;
@@ -51,3 +75,46 @@ article{
 	opacity: 0.9;
 }
 
+.happy{
+    position: absolute;
+    top: 180px
+}
+
+
+.history {
+    position: relative;
+    margin: 40px 30px 50px;
+}
+
+.history h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.history p{
+    text-align: center;
+}
+
+.adv_images{
+    margin: 0 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.adventure h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+}
+
+
+.socialinks {
+    align-self: center;
+}
