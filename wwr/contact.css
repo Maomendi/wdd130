@@ -1,0 +1,82 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+
+:root {
+    --primary-color: #bec5ad;
+    --secondary-color: #a4b494;
+    --accent1-color: #519872;
+    --accent2-color: #3b5249;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+header nav{
+    display: flex;
+    grid-column-start: 4;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header img{
+    grid-column-start: 1;
+}
+
+
+footer {
+    display: flex;
+    justify-content: end;
+}
+
+
+.socialinks {
+    align-self: center;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+form{
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgb(0,0, 0.1);
+    border-radius: 1em;
+    background-color: #eee;
+    display: grid;
+    height: auto;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    text-align: center;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label{
+    padding-right: 0.5rem;
+}
