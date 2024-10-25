@@ -1,11 +1,18 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 
 :root {
-    --primary-color: #bec5ad;
-    --secondary-color: #a4b494;
-    --accent1-color: #519872;
-    --accent2-color: #3b5249;
+    --primary-color: #eef1e7;
+    --secondary-color: #e9ebe7;
+    --accent1-color: #e1e5eaf7;
+    --accent2-color: #d9eae4;
 }
+
 
 
 header{
@@ -41,45 +48,41 @@ h2{
     font-family: "lexend", system-ui;
 }
 
-
-.hero{
+.hero {
     margin: 10px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 
 .hero img{
     width: 100%;
 }
 
-.happy img{
-    width: 200px;
-    height: auto;
-    display: block;
-    float: right;
-}
 
 a{
     text-decoration: none;
 }
 
-article{
+
+.happycamper {
     position: absolute;
-    top: 0;
-    right: 0;
-	background: var(--accent2-color);
-	border: 1px solid var(--accent1-color);
-	padding: 0.65rem;
-	box-shadow: 0 0 30px var(--accent1-color);
-	opacity: 0.9;
+    background: var(--accent2-color);
+    border: 1px solid var(--accent1-color);
+    padding: 0.65rem;
+    box-shadow: 0 0 30px var(--accent1-color);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 840px;
 }
 
-.happy{
-    position: absolute;
-    top: 180px
+.happycamper img{
+    width: 200px;
+    height: auto;
 }
-
 
 .history {
     position: relative;
@@ -117,4 +120,58 @@ footer {
 
 .socialinks {
     align-self: center;
+}
+
+
+
+form{
+    width: 500px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid rgb(0,0, 0.1);
+    border-radius: 1em;
+    background-color: #eee;
+    display: grid;
+    height: auto;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    text-align: center;
+}
+
+legend{
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label{
+    padding-right: 0.5rem;
+}
+
+
+
+.contact{
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+}
+
+
+
+.happy {
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: revert-layer;
+    flex-direction: column;
+    margin: auto;
+}
+
+.happy img{
+    width: 200px;
+    height: auto;
+    display: block;
+    float: right;
 }
