@@ -13,7 +13,7 @@
     --accent2-color: #d9eae4;
 }
 
-
+/* css for the about us page*/
 
 header{
     display: grid;
@@ -36,6 +36,8 @@ p{
     font-family: "Roboto Serif", system-ui;
 }
 
+/* main */
+
 .hero h1{
     font-family: "lexend", system-ui;
     position: absolute;
@@ -47,6 +49,7 @@ p{
 h2{
     font-family: "lexend", system-ui;
 }
+
 
 .hero {
     margin: 10px;
@@ -175,3 +178,50 @@ label{
     display: block;
     float: right;
 }
+
+
+
+.call_action{
+    position: relative;
+    background-image: url("/wwr/images/rivers.jpeg");
+    overflow: hidden;
+    padding: 100px 30px;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.call_action p{
+    padding: 20px;
+    background: var(--accent2-color);
+    border: 1px solid var(--accent1-color);
+    padding: 0.65rem;
+    box-shadow: 0 0 30px var(--accent1-color);
+    opacity: 0.9;
+}
+
+.call_action a{
+    color: white;
+}
+
+.button-link{
+    display: inline-block; /* Makes the anchor behave like a block-level element, allowing padding and width */
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #007BFF; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+
+.home{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
