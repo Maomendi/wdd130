@@ -40,10 +40,8 @@ p{
 
 .hero h1{
     font-family: "lexend", system-ui;
+    color: var(--primary-color);
     position: absolute;
-    top: 0;
-    left: 270px;
-    color: var(--primary-color)
 }
 
 h2{
@@ -179,7 +177,51 @@ label{
     float: right;
 }
 
+.addition {
+    width: 50%;
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    right: -20%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
 
+.purpose img{
+    width: 50%;
+}
+
+.purpose {
+    background-color: antiquewhite;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.offering {
+    background-color: rgb(7 89 19 / 64%);
+    border: solid antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpose p {
+    color: #918a75;
+    background-color: #00000000;
+    text-align: center;
+}
+.offering p {
+    color: #fff;
+}
+
+.offering img{
+    width: 50%;
+}
 
 .call_action{
     position: relative;
@@ -190,7 +232,7 @@ label{
     width: 100%;
     height: auto;
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
 }
 
 .call_action p{
@@ -207,15 +249,14 @@ label{
 }
 
 .button-link{
-    display: inline-block; /* Makes the anchor behave like a block-level element, allowing padding and width */
-    padding: 10px 20px; /* Padding inside the button */
-    background-color: #007BFF; /* Background color */
-    color: white; /* Text color */
-    text-align: center; /* Center the text */
-    text-decoration: none; /* Remove underline from the link */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s ease; /* Smooth background color transition */
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: white; 
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
 }
 
 
@@ -224,4 +265,3 @@ label{
     grid-template-columns: 3fr 1fr;
     grid-template-rows: auto 1fr auto;
 }
-
