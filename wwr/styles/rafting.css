@@ -232,7 +232,6 @@ label{
     height: auto;
     grid-column: 2;
     grid-row: 2;
-    height: 60%;
 }
 
 .call_action p{
@@ -284,6 +283,7 @@ label{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    height: 50%;
 }
 
 .table_info {
