@@ -165,7 +165,6 @@ label{
     position: relative;
     top: 0px;
     display: flex;
-    align-items: revert-layer;
     flex-direction: column;
     margin: auto;
 }
