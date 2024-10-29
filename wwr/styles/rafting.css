@@ -232,6 +232,7 @@ label{
     height: auto;
     grid-column: 2;
     grid-row: 2;
+    height: 60%;
 }
 
 .call_action p{
